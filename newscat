@@ -8,9 +8,14 @@ biru='\e[1;34m'
 NC='\e[0m'
 #intro
 printf "${ijo}
-${biru}
-Newscat APPS BOT
-Developer By : Maz Geboy
+			 ██████╗ ██╗   ██╗███████╗███████╗
+			██╔════╝ ██║   ██║╚══███╔╝╚══███╔╝
+			██║  ███╗██║   ██║  ███╔╝   ███╔╝ 
+			██║   ██║██║   ██║ ███╔╝   ███╔╝  
+			╚██████╔╝╚██████╔╝███████╗███████╗
+			 ╚═════╝  ╚═════╝ ╚══════╝╚══════╝                                 ${biru}
+			        Newscat APPS BOT
+				 Code By : Guzz
 "
 printf "${kuning}	_________________________________________________________________${NC}\n\n"
 rm award.tmp aid.txt info.tmp 2> /dev/null
