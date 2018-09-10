@@ -7,11 +7,17 @@ kuning='\e[1;33m'
 biru='\e[1;34m'
 NC='\e[0m'
 #intro
-printf "${biru}
-Newscat APPS BOT
-Code By : Maz Geboy
+printf "${ijo}
+			 ██████╗ ██╗   ██╗███████╗███████╗
+			██╔════╝ ██║   ██║╚══███╔╝╚══███╔╝
+			██║  ███╗██║   ██║  ███╔╝   ███╔╝ 
+			██║   ██║██║   ██║ ███╔╝   ███╔╝  
+			╚██████╔╝╚██████╔╝███████╗███████╗
+			 ╚═════╝  ╚═════╝ ╚══════╝╚══════╝                                 ${biru}
+			        Newscat APPS BOT
+				 Code By : Guzz
 "
-printf "${kuning}_______________________________________________${NC}\n\n"
+printf "${kuning}	_________________________________________________________________${NC}\n\n"
 rm award.tmp aid.txt info.tmp 2> /dev/null
 printf "${kuning}[!]${NC} Insert Your Newscat Token: "; read token
 printf "${kuning}[!]${NC} Checking Token..."
